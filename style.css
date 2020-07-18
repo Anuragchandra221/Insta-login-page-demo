@@ -7,11 +7,30 @@
     max-width: 350px;
     padding: 20px
 }
+.division2{
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    background-color: rgba(var(--d87,255,255,255),1);
+    border-radius: 1px;
+    margin-top: auto;
+    align-items: center;
+    max-width: 350px;
+    padding: auto;
+}
+.division3{
+    
+    background-color: rgba(var(--d87,255,255,255),1);
+    border-radius: none;
+    margin-top: auto;
+    align-items: center;
+    max-width: 350px;
+    padding: auto;
+    font-size: 14px;
+}
 .innerdiv{
     margin-top: 10%;
   
-    width: 275px;
-    height: 38px;
+    width: 100%;
+    height: 32px;
     font-size: 14px;
     background-color: -internal-light-dark-color(rgb(160, 160, 160), rgb(71, 69, 69));
     border: 1px solid;
@@ -20,8 +39,8 @@
 .innerdiv1{
     margin-top: 6px;
 
-    width: 275px;
-    height: 38px;
+    width: 100%;
+    height: 32px;
     font-size: 14px;
     background-color: -internal-light-dark-color(rgb(160, 160, 160), rgb(71, 69, 69));
     border: 1px solid;
@@ -50,6 +69,16 @@
     margin: auto; 
     opacity: 0.5;
     } 
+.inn{
+    font-size: 14px;
+    margin: 15px;
+    text-align: center;
+}
+.foot{
+    text-indent: 50px; 
+    opacity: 1;    
+    color: #8e8e8e;
+}
  @media only screen and (max-width: 650px) {
      .hide{
          display: none;
